@@ -1,0 +1,31 @@
+// function createRow(data) {
+//   dataTasks.forEach((task) => {
+//     const row = document.createElement("tr");
+//     const td_title = document.createElement("td");
+//     const td_desc = document.createElement("td");
+//     const td_created = document.createElement("td");
+//     const td_category = document.createElement("td");
+
+//     td_title.innerText = task.title;
+//     td_desc.innerText = task.desc;
+//     td_created.innerText = task.created;
+
+//     row.appendChild(td_title);
+//     row.appendChild(td_desc);
+//     row.appendChild(td_created);
+
+//     const categories = dataCategories
+//       .filter((category) => task.categories.includes(category.id))
+//       .map((category) => category.label);
+
+//     td_category.innerText = categories.toString();
+
+//     row.appendChild(td_category);
+//     console.log(categories);
+//   });
+// }
+
+// createRow();
+// const form = document.getElementById("form");
+1. multı selectı consola nasıl yazdırırım
+ 
